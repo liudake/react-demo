@@ -2,8 +2,6 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Install on ABT Node
-
 ## Run and debug in the cloud with Gitpod
 
 Click the "Open in Gitpod" button, Gitpod will start ABT Node and the blocklet.
