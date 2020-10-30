@@ -35,14 +35,14 @@ abtnode dev
 If you have your own ABT Node and just want to try out this blocklet, simply click the following button to install:
 [Install on My ABT Node]()
 
-Or alternatively, you can find install this demo blocklet in [Blocklets Marketplace]() or from the "Blocklet/Marketplace" menu in your ABT Node console. 
+Or alternatively, you can find install this demo blocklet in [Blocklets Marketplace](https://blocklet.arcblock.io) or from the "Blocklet/Marketplace" menu in your ABT Node console. 
 
 ## Learn more about ABT Node and Blocklet
 
 * [ABT Node Overview](https://docs.arcblock.io/en/abtnode/introduction/abtnode-overview)
 * [Get started with ABT Node](https://www.arcblock.io/en/get-started)
 * [ABT Node CLI](https://docs.arcblock.io/en/abtnode/developer/abtnode-cli)
-* [Blocklet Development Documents]()
+* [Blocklet Development Documents](https://docs.arcblock.io/en/abtnode/developer/blocklet-spec)
 
 ## License
 
