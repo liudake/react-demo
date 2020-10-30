@@ -1,6 +1,6 @@
 # React Demo
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), it's a simple demo purpose [Blocklet]() that runs on [ABT Node]()
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), it's a simple demo purpose [Blocklet](https://www.arcblock.io/en/blocklets) that runs on [ABT Node](https://www.arcblock.io/en/platform).
 
 ## Run and debug in the cloud with Gitpod
 
@@ -10,13 +10,13 @@ Click the "Open in Gitpod" button, Gitpod will start ABT Node and the blocklet.
 
 ## Run and debug locally
 
-If you have not installed ABT Node locally, you can do it by: 
+If you have not installed ABT Node locally, you can do it using the following: 
 ```shell
 yarn global add @abtnode/cli
 ```
-You can get more details from [Get started with ABT Node](https://www.arcblock.io/en/get-started) if you need help on installing ABT Node. 
+You can get more details from [Get started with ABT Node](https://www.arcblock.io/en/get-started) page or if you need help installing ABT Node. 
 
-Clone the repo and start development with a debug mode ABT Node instance inside this project:
+Clone the repo and start development using a debug mode ABT Node instance inside this project:
 ```shell
 git clone git@github.com:blocklet/react-demo.git
 cd react-demo
