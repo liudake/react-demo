@@ -8,7 +8,7 @@ Click the "Open in Gitpod" button, Gitpod will start ABT Node and the blocklet.
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/blocklet/react-demo)
 
-## Run and debug in local
+## Run and debug localy
 
 ```shell
 yarn global add @abtnode/cli
