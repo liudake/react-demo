@@ -28,7 +28,7 @@ abtnode dev
 
 ### Bundle and Package 
 
-(TBD)
+(Coming Soon)
 
 ### Install to your ABT Node
 
