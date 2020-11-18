@@ -36,6 +36,8 @@
     ]
   },
   "blocklet": {
+    "main": "build",
+    "author": "ArcBlock
     "scripts": {
       "dev": "npm run start"
     }
