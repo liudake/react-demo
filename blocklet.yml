@@ -1,9 +1,9 @@
 name: react-demo
-version: 0.1.2
+version: 0.1.3
+homepage: 'https://github.com/blocklet/react-demo'
 files:
   - build
-description: >-
-  Blocklet from local react-demo
+description: Blocklet from local react-demo
 group: static
 main: build
 author:
@@ -14,7 +14,6 @@ specVersion: 1.0.1
 did: z8iZvpvLdpfxkvTFdawCF3s5UJdUSkP2NXqPC
 community: ''
 documentation: ''
-homepage: 'https://github.com/blocklet/react-demo'
 license: ''
 interfaces:
   - type: web
@@ -25,3 +24,7 @@ interfaces:
     protocol: tcp
 environments: []
 screenshots: []
+timeout:
+  start: 10
+capabilities:
+  dynamicPathPrefix: true
