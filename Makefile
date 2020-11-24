@@ -8,3 +8,6 @@ test:
 build:
 	@echo "Building the software..."
 	@yarn build
+
+bundle:
+	@npm run bundle
