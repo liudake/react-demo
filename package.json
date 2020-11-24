@@ -14,9 +14,12 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && rm -f build/static/**/*.map",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "clean": "rm -rf .blocklet build",
+    "release": "npm run clean && npm run build && abtnode bundle --create-release",
+    "deploy": "npm run release && abtnode deploy .blocklet/bundle"
   },
   "eslintConfig": {
     "extends": [
