@@ -1,5 +1,5 @@
 name: react-demo
-version: 0.1.3
+version: 0.1.4
 homepage: 'https://github.com/blocklet/react-demo'
 files:
   - build
@@ -26,5 +26,3 @@ environments: []
 screenshots: []
 timeout:
   start: 10
-capabilities:
-  dynamicPathPrefix: true
