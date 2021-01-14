@@ -18,8 +18,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "clean": "rm -rf .blocklet build",
-    "bundle": "npm run clean && npm run build && abtnode bundle --create-release",
-    "deploy": "npm run bundle && abtnode deploy .blocklet/bundle"
+    "bundle": "npm run clean && npm run build && blocklet bundle --create-release",
+    "deploy": "npm run bundle && blocklet deploy .blocklet/bundle"
   },
   "eslintConfig": {
     "extends": [

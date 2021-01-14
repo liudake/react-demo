@@ -27,7 +27,7 @@ cd react-demo
 yarn
 abtnode init --mode debug
 abtnode start
-abtnode dev
+blocklet dev
 ```
 
 ### Bundle and Package 
