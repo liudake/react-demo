@@ -1,11 +1,11 @@
 name: react-demo
-title: React Demo
-version: 0.1.5
+version: 0.1.6
 homepage: 'https://github.com/blocklet/react-demo'
 files:
   - blocklet.md
   - README.md
   - build
+title: React Demo
 keywords:
   - static
   - demo
