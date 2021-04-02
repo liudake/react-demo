@@ -1,5 +1,5 @@
 name: react-demo
-version: 0.1.7
+version: 0.1.8
 homepage: 'https://github.com/blocklet/react-demo'
 files:
   - blocklet.md
@@ -37,3 +37,8 @@ requirements:
   abtnode: '>=1.1.0'
   os: '*'
   cpu: '*'
+charging:
+  price: 0
+  tokens: []
+  shares: []
+children: []
