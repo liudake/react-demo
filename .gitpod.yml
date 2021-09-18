@@ -6,6 +6,7 @@ tasks:
 ports:
   - port: 8080
     onOpen: ignore
+    public: true
   - port: 8089
     onOpen: ignore
   - port: 8090
