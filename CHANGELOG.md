@@ -1,3 +1,7 @@
+## 0.1.11 (十月 12, 2021)
+
+- test github action deploy & slack
+
 ## 0.1.10 (十月 12, 2021)
 
 - update gitpod config
