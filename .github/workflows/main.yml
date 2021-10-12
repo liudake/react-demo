@@ -21,11 +21,11 @@ jobs:
       - name: Bundle
         run: yarn bundle
 
-      - name: Publish to registry
-        uses: blocklet/action-upload@v0.1.8
-        with:
-          endpoint: ${{ secrets.STAGING_REGISTRY }}
-          developer-sk: ${{ secrets.ABTNODE_DEV_STAGING_SK }}
+      # - name: Publish to registry
+      #   uses: blocklet/action-upload@v0.1.8
+      #   with:
+      #     endpoint: ${{ secrets.STAGING_REGISTRY }}
+      #     developer-sk: ${{ secrets.ABTNODE_DEV_STAGING_SK }}
 
       - name: Deploy to abtnode
         uses: blocklet/action-deploy@v0.1.4
