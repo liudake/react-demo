@@ -1,6 +1,7 @@
 dep:
 	@echo "Install dependencies required for this repo..."
 	@yarn
+	@yarn global add @abtnode/cli
 
 test:
 	@echo "Running test suites..."
