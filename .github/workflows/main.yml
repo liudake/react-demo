@@ -22,7 +22,7 @@ jobs:
         run: yarn bundle
 
       - name: Publish to registry
-        uses: blocklet/action-upload@v0.1.5
+        uses: blocklet/action-upload@v0.1.6
         with:
           endpoint: ${{ secrets.STAGING_REGISTRY }}
           developer-sk: ${{ secrets.ABTNODE_DEV_STAGING_SK }}
