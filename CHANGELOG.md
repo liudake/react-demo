@@ -1,3 +1,7 @@
+## 0.1.10 (十月 12, 2021)
+
+- update gitpod config
+
 ## 0.1.9 (十月 12, 2021)
 
 - new publish flow
