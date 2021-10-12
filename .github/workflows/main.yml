@@ -19,7 +19,7 @@ jobs:
         uses: bahmutov/npm-install@v1
 
       - name: Blocklet workflow
-        uses: blocklet/action-workflow@v0.1.0
+        uses: blocklet/action-workflow@v0.1.1
         with:
           bundle-command: yarn bundle
           registry-endpoint: ${{ secrets.STAGING_REGISTRY }}
@@ -28,3 +28,4 @@ jobs:
           access-key: ${{ secrets.STAGING_NODE_ACCESS_KEY }}
           access-secret: ${{ secrets.STAGING_NODE_ACCESS_SECRET }}
           slack-webhook: ${{ secrets.SLACK_WEBHOOK }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
