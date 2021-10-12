@@ -1,3 +1,7 @@
+## 0.1.12 (十月 12, 2021)
+
+- polish blocklet github action
+
 ## 0.1.11 (十月 12, 2021)
 
 - test github action deploy & slack
