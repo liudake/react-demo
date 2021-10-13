@@ -1,4 +1,4 @@
-name: Npm deployment
+name: Blocklet workflow
 
 on:
   push:
@@ -19,7 +19,7 @@ jobs:
         uses: bahmutov/npm-install@v1
 
       - name: Blocklet workflow
-        uses: blocklet/action-workflow@v0.1.5
+        uses: blocklet/action-workflow@v0.1.6
         with:
           bundle-command: yarn bundle
           registry-endpoint: ${{ secrets.STAGING_REGISTRY }}
