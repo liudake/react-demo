@@ -1,3 +1,7 @@
+## 0.1.15 (十月 13, 2021)
+
+- v0.1.15 skip-deploy
+
 ## 0.1.14 (十月 13, 2021)
 
 - upgrade blocklet/action-workflow
