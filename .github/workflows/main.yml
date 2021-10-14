@@ -19,10 +19,10 @@ jobs:
         uses: bahmutov/npm-install@v1
 
       - name: Blocklet workflow
-        uses: blocklet/action-workflow@v0.2.0
+        uses: blocklet/action-workflow@v0.2.2
         with:
           bundle-command: yarn bundle
+          skip-upload: false
           registry-endpoint: ${{ secrets.STAGING_REGISTRY }}
           developer-sk: ${{ secrets.ABTNODE_DEV_STAGING_SK }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          skip-deploy: true
