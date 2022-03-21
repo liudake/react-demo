@@ -30,7 +30,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "clean": "rm -rf .blocklet build",
-    "bundle:client": "PUBLIC_URL=\"/.blocklet/proxy/z8iZvpvLdpfxkvTFdawCF3s5UJdUSkP2NXqPC\" npm run build",
+    "bundle:client": "npm run build",
     "bundle": "npm run clean && npm run bundle:client && blocklet bundle --create-release",
     "deploy": "npm run bundle && blocklet deploy .blocklet/bundle"
   },
