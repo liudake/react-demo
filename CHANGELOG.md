@@ -1,3 +1,7 @@
+## 0.1.20 (March 21, 2022)
+
+- fix sw scope
+
 ## 0.1.19 (March 21, 2022)
 
 - support service worker
