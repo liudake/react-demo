@@ -1,5 +1,5 @@
 name: react-demo
-version: 0.1.18
+version: 0.1.19
 homepage: 'https://github.com/blocklet/react-demo'
 files:
   - blocklet.md
@@ -17,7 +17,7 @@ author:
   name: ArcBlock
 scripts:
   dev: npm run start
-specVersion: 1.2.0
+specVersion: 1.2.3
 did: z8iZvpvLdpfxkvTFdawCF3s5UJdUSkP2NXqPC
 community: ''
 documentation: ''
@@ -43,3 +43,4 @@ payment:
 children: []
 capabilities:
   clusterMode: false
+  component: true
