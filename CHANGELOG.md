@@ -1,3 +1,7 @@
+## 0.1.21 (April 14, 2022)
+
+- add did comments
+
 ## 0.1.20 (March 21, 2022)
 
 - fix sw scope
