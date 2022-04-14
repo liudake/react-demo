@@ -4383,10 +4383,10 @@ devices.css@^0.1.15:
   resolved "https://registry.yarnpkg.com/devices.css/-/devices.css-0.1.15.tgz#6e4fa12c02b490f71011f8beeee9dae90ac3ad80"
   integrity sha1-bk+hLAK0kPcQEfi+7una6QrDrYA=
 
-did-comment-react@^0.1.6:
-  version "0.1.6"
-  resolved "https://registry.yarnpkg.com/did-comment-react/-/did-comment-react-0.1.6.tgz#e154da06150eca44eb4d9e9df0bbca4c104e7b47"
-  integrity sha512-FVVRYPJyHaGyNUBSvd6n3HjV+ISCDLYmd4E2BmvAx/QaILDeJPHjI5d+FKEW/Yphs8wh7AG3HnQ1m1wRp5cORw==
+did-comment-react@^0.1.9:
+  version "0.1.9"
+  resolved "https://registry.yarnpkg.com/did-comment-react/-/did-comment-react-0.1.9.tgz#0fcbc21e712c30b18992fecb3e1265a61d215a78"
+  integrity sha512-L3ySNkDju54bpOv1CqBuS8AnkxjXT1C0JQWDb39QNjpyaDVCtbmzksjWUvh6164G8wWT3/IHLZaUF6XVGYsRog==
   dependencies:
     "@arcblock/did-connect" "^1.17.4"
     "@arcblock/ux" "^1.17.4"
