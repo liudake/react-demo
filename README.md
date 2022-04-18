@@ -1,39 +1,18 @@
-# React Demo
+# 基于react框架创建项目
+node版本： v16.13.2
+npm版本：8.1.2
+## 项目启动
+### `npm start`
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), it's a simple demo purpose [Blocklet](https://www.arcblock.io/en/blocklets) that runs on [Blocklet Server](https://www.arcblock.io/en/platform).
+## 需求内容
+1. 实现输入查询场景
+2. 查询正确显示信息
+3. 查询错误显示错误提示（样式自由发挥）
+4. 需要有请求状态提示（例如loading，样式自由发挥）
 
-## Launch on Blocklet Server
-
-[![Launch on Blocklet Server](https://assets.arcblock.io/icons/launch_on_blocklet_server.svg)](https://install.arcblock.io/?action=blocklet-install&meta_url=https%3A%2F%2Fgithub.com%2Fblocklet%2Freact-demo%2Freleases%2Fdownload%2Fv0.1.20%2Fblocklet.json)
-
-## Run and debug in the cloud with Gitpod
-
-Click the "Open in Gitpod" button, Gitpod will start Blocklet Server and the blocklet.
-
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/blocklet/react-demo)
-
-## Run and debug locally
-
-If you have not installed Blocklet Server locally, you can do it using the following:
-
-```shell
-yarn global add @blocklet/cli
-```
-
-You can get more details from [Get started with Blocklet Server](https://www.arcblock.io/en/get-started) page or if you need help installing Blocklet Server.
-
-Clone the repo and start development using a debug mode Blocklet Server instance inside this project:
-
-```shell
-git clone git@github.com:blocklet/react-demo.git
-cd react-demo
-yarn
-blocklet server init --mode debug
-blocklet server start
-blocklet dev
-```
-
-## License
-
-The code is licensed under the MIT license found in the
-[LICENSE](LICENSE) file.
+## 技术亮点
+1. 封装fetch网络请求，支持get,post,put,delete，支持async await 写法，支持捕获请求错误信息。
+2. 封装自定义Hooks完成日常请求loading与error俘获。
+3. 封装自定义Hook中的防抖函数，优化搜索查询场景。
+4. 全量使用TS写法。
+5. react社区有个SWR库，可以进行请求数据优化以及缓存等策略。[SWR](https://swr.vercel.app/zh-CN) 
